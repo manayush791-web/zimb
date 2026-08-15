@@ -59,7 +59,7 @@ except ImportError:
 # ── AI via pure requests (no openai SDK needed — always works) ──
 
 # ── CONFIG ──────────────────────────────────────────────────
-BOT_TOKEN  = os.getenv("TELEGRAM_BOT_TOKEN", "8685097247:AAFBBcSUwh3fkPURXg8YKw6b285KJ8UW1Og")
+BOT_TOKEN  = os.getenv("TELEGRAM_BOT_TOKEN", "8479830873:AAEinSqYTYptGS500XpD2qOmS6zPVuh74P4")
 if not BOT_TOKEN:
     raise SystemExit("❌ TELEGRAM_BOT_TOKEN not set. Export it before running.")
 
